@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+//プロトコル宣言
+@interface ViewController : UIViewController<UITextFieldDelegate>{
+    
+
+}
 
 
 @end
